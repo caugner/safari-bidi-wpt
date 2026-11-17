@@ -1,0 +1,20 @@
+{
+  "host": "127.0.0.1",
+  "port": 4460,
+  "capabilities": {
+    "browserName": "safari",
+    "safari:experimentalWebSocketUrl": true
+  },
+  "webdriver": {
+    "binary": "/System/Cryptexes/App/usr/bin/safaridriver",
+    "args": []
+  },
+  "wptserve": {
+    "browser_host": "localhost",
+    "domains": {"": {"": "localhost"}, "alt": {"": "127.0.0.1"}},
+    "ports": {"http": [8802], "https": [9444]},
+    "doc_root": "work/w3c"
+  },
+  "timeout_multiplier": 1,
+  "target_platform": "mac"
+}

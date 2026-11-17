@@ -1,0 +1,75 @@
+# WPT BiDi test files to rerun, one per line, relative to WebDriverTests/imported/w3c/webdriver.
+# Blank lines and lines starting with # are ignored.
+
+# All of tests/bidi/input/
+tests/bidi/input/file_dialog_opened/file_dialog_opened.py
+tests/bidi/input/file_dialog_opened/tentative/show_open_file_picker.py
+tests/bidi/input/file_dialog_opened/user_context_tentative.py
+tests/bidi/input/perform_actions/duration.py
+tests/bidi/input/perform_actions/invalid.py
+tests/bidi/input/perform_actions/key_events.py
+tests/bidi/input/perform_actions/key_modifier.py
+tests/bidi/input/perform_actions/key_tentative.py
+tests/bidi/input/perform_actions/key.py
+tests/bidi/input/perform_actions/navigation.py
+tests/bidi/input/perform_actions/pointer_mouse_drag.py
+tests/bidi/input/perform_actions/pointer_mouse_modifier.py
+tests/bidi/input/perform_actions/pointer_mouse_multiclick.py
+tests/bidi/input/perform_actions/pointer_mouse.py
+tests/bidi/input/perform_actions/pointer_origin.py
+tests/bidi/input/perform_actions/pointer_pen.py
+tests/bidi/input/perform_actions/pointer_touch_simultaneous.py
+tests/bidi/input/perform_actions/pointer_touch.py
+tests/bidi/input/perform_actions/pointer.py
+tests/bidi/input/perform_actions/queue.py
+tests/bidi/input/perform_actions/wheel_events.py
+tests/bidi/input/perform_actions/wheel_frame.py
+tests/bidi/input/perform_actions/wheel_origin.py
+tests/bidi/input/perform_actions/wheel.py
+tests/bidi/input/release_actions/context.py
+tests/bidi/input/release_actions/invalid.py
+tests/bidi/input/release_actions/queue.py
+tests/bidi/input/release_actions/release.py
+tests/bidi/input/release_actions/sequence_tentative.py
+tests/bidi/input/release_actions/sequence.py
+tests/bidi/input/set_files/context.py
+tests/bidi/input/set_files/files.py
+tests/bidi/input/set_files/invalid.py
+
+# Focus-sensitive files (prompts, activation, focus, user activation, background tabs)
+tests/bidi/browsing_context/activate/activate.py
+tests/bidi/browsing_context/activate/invalid.py
+tests/bidi/browsing_context/capture_screenshot/capture_screenshot.py
+tests/bidi/browsing_context/close/prompt_unload.py
+tests/bidi/browsing_context/create/background.py
+tests/bidi/browsing_context/create/type.py
+tests/bidi/browsing_context/handle_user_prompt/handle_user_prompt.py
+tests/bidi/browsing_context/handle_user_prompt/invalid.py
+tests/bidi/browsing_context/navigate/navigate_beforeunload.py
+tests/bidi/browsing_context/user_prompt_closed/beforeunload.py
+tests/bidi/browsing_context/user_prompt_closed/user_context_tentative.py
+tests/bidi/browsing_context/user_prompt_closed/user_prompt_closed.py
+tests/bidi/browsing_context/user_prompt_opened/beforeunload.py
+tests/bidi/browsing_context/user_prompt_opened/handler.py
+tests/bidi/browsing_context/user_prompt_opened/user_context_tentative.py
+tests/bidi/browsing_context/user_prompt_opened/user_prompt_opened.py
+tests/bidi/script/call_function/user_activation.py
+tests/bidi/script/evaluate/user_activation.py
+tests/bidi/session/capabilities/unhandled_prompt_behavior/file/accept.py
+tests/bidi/session/capabilities/unhandled_prompt_behavior/file/dismiss.py
+tests/bidi/session/capabilities/unhandled_prompt_behavior/file/ignore.py
+
+# Matched the keyword search but look incidental; uncomment to include.
+# navigate/error.py hit the 15 minute per-file cap in the earlier run.
+# tests/bidi/browsing_context/close/invalid.py
+# tests/bidi/browsing_context/download_end/download_end.py
+# tests/bidi/browsing_context/download_end/status.py
+# tests/bidi/browsing_context/download_end/user_context_tentative.py
+# tests/bidi/browsing_context/download_will_begin/download_will_begin.py
+# tests/bidi/browsing_context/download_will_begin/user_context_tentative.py
+# tests/bidi/browsing_context/navigate/error.py
+# tests/bidi/browsing_context/navigation_failed/navigation_failed.py
+# tests/bidi/browsing_context/navigation_started/navigation_started.py
+# tests/bidi/browsing_context/reload/wait.py
+# tests/bidi/script/call_function/invalid.py
+# tests/bidi/script/evaluate/invalid.py
